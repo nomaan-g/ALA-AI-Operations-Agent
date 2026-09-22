@@ -51,9 +51,11 @@ Operational trends
 Potential problem areas
 Important business metrics
 Data-driven opportunities
+
 💬 Interactive Application
 
 The project includes a user-facing application through app.py, which provides an interface for interacting with the AI operations workflow.
+
 
 🏗️ Project Architecture
 
@@ -89,6 +91,8 @@ High-level workflow:
                     │ Business / Supplier │
                     │      Insights       │
                     └─────────────────────┘
+
+
 📂 Project Structure
 ALA-AI-Operations-Agent/
 │
@@ -99,15 +103,19 @@ ALA-AI-Operations-Agent/
 ├── ala_supplier_data.csv
 ├── .gitignore
 └── README.md
+
+
 File Description
-File	Description
-app.py	Main application and user interface
-agent.py	AI operations agent logic
-ai_analysis.py	AI-powered analysis functionality
-analyze.py	Data analysis and processing utilities
+File	                         Description
+app.py	                Main application and user interface
+agent.py	            AI operations agent logic
+ai_analysis.py	        AI-powered analysis functionality
+analyze.py	            Data analysis and processing utilities
 ala_supplier_data.csv	Supplier/business dataset
-.gitignore	Prevents sensitive and unnecessary files from being committed
-README.md	Project documentation
+.gitignore	            Prevents sensitive and unnecessary files from being committed
+README.md	            Project documentation
+
+
 🛠️ Tech Stack
 Python
 Streamlit
@@ -116,6 +124,8 @@ Data analysis
 CSV
 Git
 GitHub
+
+
 ⚙️ Installation
 1. Clone the repository
 git clone git@github.com:nomaan-g/ALA-AI-Operations-Agent.git
@@ -123,12 +133,14 @@ git clone git@github.com:nomaan-g/ALA-AI-Operations-Agent.git
 Navigate into the project:
 
 cd ALA-AI-Operations-Agent
+
 2. Create a virtual environment
 python3 -m venv venv
 
 Activate it:
 
 source venv/bin/activate
+
 3. Install dependencies
 
 If a requirements.txt file is available:
@@ -165,6 +177,7 @@ streamlit run app.py
 Then open the local Streamlit URL shown in the terminal, typically:
 
 http://localhost:8501
+
 📊 Data
 
 The project uses:
@@ -180,6 +193,8 @@ Supplier-level trends
 Operational metrics
 Potential anomalies
 Business opportunities
+
+
 🧠 AI Workflow
 
 The general workflow is:
@@ -199,6 +214,7 @@ AI Operations Agent
 AI-powered Interpretation
       │
       ▼
+
 Business Insights
 💡 Use Cases
 Supplier Performance
@@ -235,6 +251,7 @@ Generate data-driven insights that can help operations teams investigate busines
  Authentication and role-based access
  Cloud deployment
  Automated email/report notifications
+
 🔒 Security
 
 Never commit the following information:
